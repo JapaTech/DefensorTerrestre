@@ -18,7 +18,7 @@ public class VidaTerra : MonoBehaviour
     //Verifica a colisão da Terra
     private void OnTriggerEnter2D(Collider2D other) {
         //Se Colidiu com um Inimigo
-        if(other.gameObject.CompareTag("Enemy"))
+        if(other.gameObject.CompareTag("Inimigo"))
         {
             //Dimiui a vida em 1;
             vidaTerra--;

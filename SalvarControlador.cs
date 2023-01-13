@@ -131,5 +131,6 @@ public class Criptografia
         //Retorna o char deslocado
         return (char)indiceFinal;
     }
-
 }
+
+//Referências: https://www.youtube.com/watch?v=f1cqInqB9qk&t=1s
